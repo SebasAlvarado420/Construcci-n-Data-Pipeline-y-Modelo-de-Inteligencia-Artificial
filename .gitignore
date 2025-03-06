@@ -1,0 +1,49 @@
+# --- Archivos compilados / optimizados / DLL ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# --- Entornos virtuales ---
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.env
+
+# --- Construcción / Distribución ---
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+
+# --- Cachés y reportes de pruebas ---
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+.hypothesis/
+
+# --- Logs y otros ---
+*.log
+pip-log.txt
+pip-delete-this-directory.txt
+
+# --- Jupyter Notebook ---
+.ipynb_checkpoints/
+
+# --- PyInstaller ---
+*.spec
+
+# --- mypy / Pyre / pytype ---
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+cython_debug/
