@@ -1,0 +1,8 @@
+2025-03-05 21:03:26,752 - INFO - Descargando dataset 'johnsmith88/heart-disease-dataset' usando Kaggle API...
+2025-03-05 21:03:28,889 - INFO - Archivo heart.csv extraído y renombrado a data_original.csv.
+2025-03-05 21:03:28,904 - INFO - Datos limpios guardados en data.csv
+2025-03-05 21:03:28,915 - INFO - Datos listos para IA exportados en data_analisis.csv
+2025-03-05 21:03:28,915 - INFO - Subiendo data_analisis.csv a s3://grupo-1-data-pipeline/data_analisis.csv
+2025-03-05 21:03:28,933 - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2025-03-05 21:03:30,614 - INFO - Archivo subido con éxito a s3://grupo-1-data-pipeline/data_analisis.csv
+2025-03-05 21:03:30,621 - INFO - Pipeline completo ejecutado con éxito.

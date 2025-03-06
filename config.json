@@ -1,0 +1,28 @@
+{
+    "admin": {
+      "access_level": "full",
+      "description": "Acceso total: puede extraer, limpiar, cifrar, exportar y subir a S3.",
+      "allowed_operations": [
+        "extract_data",
+        "clean_data",
+        "encrypt_column",
+        "export_for_ai",
+        "upload_to_s3"
+      ]
+    },
+    "analyst": {
+      "access_level": "read_write",
+      "description": "Puede extraer y limpiar datos, pero no cifrarlos ni subir a S3.",
+      "allowed_operations": [
+        "extract_data",
+        "clean_data",
+        "export_for_ai"
+      ]
+    },
+    "guest": {
+      "access_level": "restricted",
+      "description": "Solo puede ver el pipeline, sin permiso de ejecución.",
+      "allowed_operations": []
+    }
+  }
+  
