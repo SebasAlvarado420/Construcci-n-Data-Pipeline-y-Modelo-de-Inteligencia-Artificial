@@ -1,4 +1,6 @@
 Construcción Completa de un Data Pipeline y Aplicación de un Modelo de Inteligencia Artificial
+
+
 Este proyecto surge como parte de nuestro trabajo en grupo para el curso de Administración de Datos, impartido por el profesor Alejandro Zamora. A lo largo del desarrollo, nuestro objetivo fue demostrar la capacidad de construir un flujo de datos completo: desde la extracción automatizada de información hasta la implementación y despliegue de un modelo de inteligencia artificial avanzado, integrado en una aplicación web interactiva.
 
 La primera etapa del proyecto se centró en diseñar un Data Pipeline robusto. Iniciamos descargando el dataset de enfermedades cardíacas utilizando la API de Kaggle, lo cual nos permitió obtener de manera automática el archivo comprimido del dataset “heart-disease-dataset”. A partir de ese archivo, extrajimos el CSV y lo renombramos como data_original.csv. Luego, aplicamos un proceso de limpieza en el que eliminamos filas con datos faltantes y duplicados, generando un archivo intermedio (data.csv) que contenía únicamente datos de calidad. Dado que en nuestro contexto el dato “age” resulta fundamental y no es considerado sensible, optamos por omitir cualquier proceso de cifrado sobre las variables, asegurando que la integridad de la información se mantuviera para el análisis posterior.
